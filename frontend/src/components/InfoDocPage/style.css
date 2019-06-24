@@ -1,0 +1,66 @@
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-family: "Ubuntu", serif;
+
+}
+
+p { font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2F4F4F}
+p.FIO{
+    font-size: 1.1vw;
+}
+p.position{
+    font-size: 0.9vw;
+}
+.name_page{
+    font-size: 1.4vw;
+    color: #008B8B;
+}
+/*.form label{
+    align-self: center;
+    font-weight: bold;
+}*/
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.gran{
+    border-bottom: 0.1em groove gray;
+}
+.right{
+    margin-right: 2vw;
+    width: 20%;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 22vh;
+}
+/*.left{
+    margin-left: 10vw;
+}*/
+
+

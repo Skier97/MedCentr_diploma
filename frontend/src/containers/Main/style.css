@@ -1,0 +1,136 @@
+/*  fonts  */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Common styles */
+:root{
+    --link-hover-color: #d63465;
+    --font-color: #4a4a4a;
+    --drop-color: #e3d7e8; /* beige */
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgba(230, 230, 230, 0.48);
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Main Page*/
+.errorMessage {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+
+
+
+
+.MainContent {
+    /*margin: 5% auto;*/
+    width: 100vw;
+
+    /*align-items: center;*/
+}
+.formInput{
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    width: 100vw;
+    height: 100vh;
+    /*background-image:url("main_picture1.jpg");*/
+
+    /*background-color: #6495ED;*/
+    /*background-color: #00CED1;*/
+}
+
+.text{
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    width: 30%;
+    height: 80%;
+    margin-bottom: 90vh;
+    margin-right: 55vw;
+    /*margin-left: 7vw;*/
+    /*margin-top: 6vh;*/
+}
+
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-family: "Ubuntu", serif;
+}
+.but_reg{
+    margin-top: 1vh;
+    width: 50%;
+    height: 5vh;
+    align-self: center;
+    background-color: #00FF7F;
+    border-radius: 10px;
+    margin-bottom: 1vh;
+    font-weight: bold;
+    font-size: 1vw;
+}
+.Panel{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+.doctorPanel{
+    display: flex;
+    justify-content: center;
+}
+
+.history-orders{
+
+    overflow: scroll; /* Добавляем полосы прокрутки */
+    width: 40vw; /* Ширина блока */
+    height: 25vh; /* Высота блока */
+    padding: 8px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    /*margin-bottom: 15px; я тебе переебу за такие стили в следуйщий раз Антон! :) */
+    border-collapse: collapse;
+    border-bottom: 1px solid #E1E8EE;
+}
+
+table tr td {
+    padding: 0;
+}
+
+.adminMenu input[type=submit],.adminMenu button{
+    border: none;
+    background: black;
+    color: white;
+    font-size: 1.2rem;
+    width: 320px;
+}
+.adminMenu input[type=submit]:hover, button:hover{
+    background: #ffffff;
+    color: #000000;
+
+}

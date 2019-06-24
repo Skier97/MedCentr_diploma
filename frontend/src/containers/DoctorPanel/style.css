@@ -1,0 +1,38 @@
+.adminPanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 5vw;
+}
+.MenuChanger{
+    display: flex;
+    justify-content: center;
+    padding-top: 8vw;
+}
+
+.adminMenu input[type=text] {
+    padding: 10px;
+    font-size:20px;
+    border: 10px solid rgba(255, 255, 255, .5);
+    outline: none;
+    color: #333;
+    width: 280px;
+}
+
+.adminMenu input[type=submit],.adminMenu button{
+    border: none;
+    background: #D8BFD8;
+    color: white;
+    font-size: 1.2rem;
+    width: 320px;
+}
+.adminMenu input[type=submit]:hover, button:hover{
+    background: #ffffff;
+    color: #000000;
+
+}
+.hidden{
+    display: none;
+}

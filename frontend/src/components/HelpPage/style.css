@@ -1,0 +1,28 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    font-family: "Ubuntu", serif;
+    /*justify-content: center;*/
+
+    /*background-color: #6495ED;*/
+    /*background-color: #00CED1;*/
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 30vh;
+
+}
+
+.name_que{
+    font-size: 2.2vh;
+    color: #1E90FF;
+}
+
+
